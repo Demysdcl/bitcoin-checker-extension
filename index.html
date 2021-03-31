@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cripto checker</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Cripto checker</h1>
+      <div class="container">
+        <strong>Bitcoin current value: </strong>
+        <span
+          style="font-size: 36px; margin-top: 10px; font-weight: 500"
+          id="bitcoin"
+        >
+          Loading...
+        </span>
+        <section class="bitcoin-converter">
+          <label>
+            Your bitcoins
+            <input id="btc" type="number" />
+          </label>
+          <button id="btn">Convert</button>
+        </section>
+
+        <span style="font-size: 25px" id="real"></span>
+      </div>
+    </main>
+  </body>
+</html>
